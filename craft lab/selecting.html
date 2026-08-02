@@ -1,0 +1,41 @@
+<html>
+
+<Head>
+    <link rel="stylesheet" href="selecting.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.html">
+    <script language="javascript">
+      function getParameterByName(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      }
+      window.onload = function() {
+          document.getElementById("my_div").innerText ="Hello    " +getParameterByName("first_name") 
+  };
+   
+    </script>
+</Head>
+
+<body>
+  <ul>
+
+    <li><a href="">Home</a></li>
+    <li><a href="">Basic Quilling</a> </li>
+    <li><a href="">Contact Us</a></li>
+    <li><a href="">Tests</a></li>
+    </ul>
+    <div id="my_div" name="my_div"></div>
+    <h1>Are you a beginner?</h1>
+   
+     <button type="Submit" value="Submit" onclick ="location.href ='beginner.html'">Yes</button>
+     <br/>
+     <br/>
+     <button type="Submit" value="Submit" onclick ="location.href ='beginner.html'">No</button>
+   
+ </body>
+
+</html>

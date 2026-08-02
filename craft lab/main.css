@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+li a{
+    float:left;
+    display: block;
+    color:black;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right:black;
+    min-width:200px;
+}
+
+li a:hover{
+    background-color: red;
+}

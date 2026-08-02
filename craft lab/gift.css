@@ -1,0 +1,52 @@
+#leftbox {
+    float:left;
+    background:rgb(255, 0, 191);
+    width: 25%;
+    height:280px;
+    border-color: red;
+    border-style: solid;
+    
+   }
+#middlebox{
+    float:left;
+    background:rgb(255, 0, 191);
+    width:25%;
+    height:280px;
+    border-color:red;
+    border-style: solid;
+    
+}
+#thirdbox{
+    float:left;
+    background:rgb(255, 0, 191);
+    width:25%;
+    height:280px;
+    border-color: red;
+    border-style: solid;
+}
+
+#rightbox{
+    float:right;
+    background:rgb(255, 0, 191);
+    width:25%;
+    height:280px;
+    border-color: red;
+    border-style: solid;
+
+    
+}
+h1{
+    color:green;
+    text-align:center;
+}
+
+body{
+    text-align: center;
+}
+button{
+    background-color: blueviolet;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius:100px;
+}

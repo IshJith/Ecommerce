@@ -1,0 +1,13 @@
+button{
+    background-color: blueviolet;
+    text-align: center;
+    padding-bottom:40px;
+    width: 1000px;
+    height: 0px;
+   
+}
+body{
+    text-align: center;
+    padding-bottom:40px;
+    background-image:url("image.jpg");
+}
